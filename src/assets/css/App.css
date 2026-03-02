@@ -1,0 +1,18 @@
+#root {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #E8E8E8;
+}
+
+#home-container {
+  margin: 16em auto;
+  border-radius: 0.7em;
+
+  width: 85%;
+  height: 150em;
+  background-color: white;
+
+}
