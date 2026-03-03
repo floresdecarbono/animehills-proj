@@ -1,4 +1,5 @@
 import './assets/css/App.css';
+import Footer from './Footer.jsx';
 import Header from './Header';
 import HomeContainer from './home/HomeContainer.jsx';
 import { Routes, Route } from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
         <Route path="/artigo/:id" element={<Artigo />}/>
       </Routes>
     </Container>
+    <Footer/>
   </>
  );
 }
