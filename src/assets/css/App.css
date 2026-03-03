@@ -1,17 +1,19 @@
-#root {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container_loading {
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   margin: 0;
   background-color: #E8E8E8;
-}
-
-#home-container {
-  margin: 16em auto;
-  border-radius: 0.7em;
-
-  width: 85%;
-  height: 15em;
-  background-color: white;
 }
