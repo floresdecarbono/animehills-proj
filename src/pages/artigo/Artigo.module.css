@@ -1,0 +1,38 @@
+.artigo {
+    margin: 2em 1em;
+}
+
+.container_main_image {
+    width: 100%;
+}
+
+.main_image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.categoria {
+    margin-top: .5em;
+    font-size: 20px;
+    color: green;
+}
+
+.title {
+    margin: .5em 0;
+    font-size: 35px;
+}
+
+.infos p {
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.content {
+    margin: 1em 0;
+}
+
+.content p {
+    line-height: 2;
+    font-size: 20px;
+}
