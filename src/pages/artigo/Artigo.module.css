@@ -3,7 +3,8 @@
 }
 
 .container_main_image {
-    width: 100%;
+    max-width: 1080px;
+    max-height: 720px;
 }
 
 .main_image {
@@ -13,13 +14,15 @@
 
 .categoria {
     margin-top: .5em;
-    font-size: 20px;
+    margin-left: 1.5em;
+    font-size: 25px;
     color: green;
 }
 
 .title {
-    margin: .5em 0;
+    margin: .1em 0;
     font-size: 35px;
+    color: black;
 }
 
 .infos p {
@@ -35,4 +38,5 @@
 .content p {
     line-height: 2;
     font-size: 20px;
+    color: black;
 }
