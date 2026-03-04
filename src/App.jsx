@@ -1,5 +1,5 @@
 import './assets/css/App.css';
-import Footer from './Footer.jsx';
+import Footer from './components/layout/Footer/Footer.jsx';
 import Header from './components/layout/Header/Header.jsx';
 import HomeContainer from './pages/home/HomeContainer.jsx';
 import { Routes, Route } from 'react-router-dom';
