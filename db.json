@@ -1,11 +1,12 @@
 {
-  "noticias": [
+  "postagens": [
     {
       "id": 1,
       "titulo": "Novo trailer da 4ª temporada de That Time I Got Reincarnated as a Slime revela próximos conflitos do Reino de Tempest",
       "autor": "Peterson William",
-      "data": "03 de Março de 2026",
-      "hora": "14:30",
+      "categoria": "Notícia",
+      "resumo": "O Reino de Tempest enfrenta novos desafios políticos e diplomáticos em trailer inédito da 4ª temporada, produzida pelo estúdio 8bit.",
+      "data": "2026-03-03T17:00:00.000Z",
       "imagem": "https://images4.alphacoders.com/978/thumb-1920-978847.jpg",
       "conteudo": "A quarta temporada de That Time I Got Reincarnated as a Slime ganhou um novo trailer oficial que animou os fãs da franquia. A prévia apresenta cenas inéditas envolvendo o crescimento do Reino de Tempest e os desafios políticos que surgem à medida que a nação de monstros liderada por Rimuru Tempest se torna cada vez mais influente no cenário internacional.\n\nAlém de mostrar batalhas de grande escala, o trailer também destaca momentos mais estratégicos, indicando que a nova temporada deve aprofundar os conflitos diplomáticos entre reinos humanos, demônios e outras criaturas do universo da série. A produção continua sob responsabilidade do estúdio 8bit, que já trabalhou nas temporadas anteriores.\n\nA estreia está prevista para a próxima temporada de animes e deve adaptar novos arcos da light novel original, ampliando o universo político e fantástico que tornou a obra um dos isekais mais populares da última década."
     },
@@ -13,8 +14,9 @@
       "id": 2,
       "titulo": "Rooster Fighter ganha novo trailer e chama atenção pelo humor absurdo",
       "autor": "João Vítor Fernandes",
-      "data": "02 de Março de 2026",
-      "hora": "18:10",
+      "categoria": "Notícia",
+      "resumo": "Um galo lutador enfrenta demônios gigantes no Japão em nova adaptação de anime que aposta no contraste entre ação épica e humor excêntrico.",
+      "data": "2026-03-02T21:10:00.000Z",
       "imagem": "https://i0.wp.com/www.otakupt.com/wp-content/uploads/2025/10/Rooster-Fighter-anime-op-screenshot.jpg?fit=1920%2C1080&ssl=1",
       "conteudo": "A adaptação em anime de Rooster Fighter recebeu um novo trailer nesta semana e rapidamente virou assunto entre os fãs. A obra apresenta um conceito inusitado: um galo aparentemente comum que percorre o Japão enfrentando demônios gigantes que ameaçam a humanidade.\n\nO mangá original ficou conhecido por equilibrar humor exagerado e cenas de ação surpreendentemente épicas. O anime parece seguir essa mesma abordagem, com sequências de luta intensas misturadas a momentos cômicos que brincam com o contraste entre o protagonista improvável e os perigos que ele enfrenta.\n\nA expectativa é que a adaptação mantenha o espírito irreverente da obra original enquanto expande a narrativa para um público ainda maior. A estreia está prevista para este ano e já desperta curiosidade tanto entre fãs de ação quanto entre aqueles que buscam histórias mais excêntricas dentro do universo dos animes."
     },
@@ -22,8 +24,9 @@
       "id": 3,
       "titulo": "Beastars revela trailer da parte final da temporada final",
       "autor": "Peterson William",
-      "data": "01 de Março de 2026",
-      "hora": "21:05",
+      "categoria": "Notícia",
+      "resumo": "Legoshi enfrenta o clímax dos conflitos sociais entre predadores e herbívoros no trailer que prepara o encerramento definitivo de Beastars.",
+      "data": "2026-03-02T00:05:00.000Z",
       "imagem": "https://i.ytimg.com/vi/910yVT2vxTo/maxresdefault.jpg",
       "conteudo": "O anime Beastars está se aproximando de sua conclusão definitiva, e um novo trailer divulgado recentemente oferece um vislumbre do que os fãs podem esperar da parte final da última temporada.\n\nA história acompanha Legoshi, um lobo que vive em uma sociedade onde predadores e herbívoros tentam coexistir pacificamente. Ao longo da série, o anime explora temas complexos como preconceito, identidade e moralidade.\n\nNos episódios finais, os conflitos pessoais e sociais devem atingir seu ponto máximo, com Legoshi enfrentando decisões difíceis que podem definir não apenas seu destino, mas também o futuro das relações entre as diferentes espécies. A conclusão da série promete trazer momentos emocionantes e respostas para questões que foram desenvolvidas desde o início da trama."
     },
@@ -31,8 +34,9 @@
       "id": 4,
       "titulo": "Steel Ball Run finalmente ganha adaptação em anime",
       "autor": "João Vítor Fernandes",
-      "data": "28 de Fevereiro de 2026",
-      "hora": "12:40",
+      "categoria": "Notícia",
+      "resumo": "A sétima parte de JoJo’s Bizarre Adventure é confirmada para anime, levando a corrida de Johnny e Gyro para as telas após anos de espera.",
+      "data": "2026-02-28T15:40:00.000Z",
       "imagem": "https://sm.ign.com/t/ign_pt/screenshot/default/steel-ball-run-anime-revealed_vs8t.1200.jpg",
       "conteudo": "Após anos de especulação entre fãs, Steel Ball Run foi oficialmente confirmado como a próxima parte da saga JoJo’s Bizarre Adventure a receber adaptação em anime.\n\nAmbientada em uma corrida através dos Estados Unidos no final do século XIX, a história acompanha Johnny Joestar e Gyro Zeppeli em uma jornada que mistura competição esportiva, conspirações e batalhas sobrenaturais.\n\nConsiderada por muitos leitores como uma das melhores partes do mangá de Hirohiko Araki, Steel Ball Run é conhecida por sua narrativa mais madura e por apresentar um dos universos mais complexos da franquia. A expectativa é que a adaptação mantenha o estilo visual marcante e as batalhas criativas que tornaram JoJo um fenômeno global."
     },
@@ -40,8 +44,9 @@
       "id": 5,
       "titulo": "Filme de Chiikawa promete emocionar fãs com nova aventura",
       "autor": "Peterson William",
-      "data": "28 de Fevereiro",
-      "hora": "10:25",
+      "categoria": "Notícia",
+      "resumo": "As pequenas criaturas de Chiikawa chegam aos cinemas em um longa que explora a amizade e novas regiões de seu universo peculiar.",
+      "data": "2026-02-28T13:25:00.000Z",
       "imagem": "https://a.storyblok.com/f/178900/960x540/8f1554c4f8/chiikawa-movie-hero.png",
       "conteudo": "O universo adorável de Chiikawa ganhará um novo filme animado que promete expandir a história dos personagens que conquistaram fãs ao redor do mundo.\n\nConhecida por misturar momentos extremamente fofos com situações inesperadamente emocionais, a série acompanha pequenas criaturas que vivem aventuras cotidianas em um mundo repleto de desafios curiosos.\n\nO novo longa deve apresentar uma narrativa inédita que aprofunda a amizade entre os personagens principais enquanto explora novas regiões desse universo peculiar. A produção pretende manter o tom leve e carismático que transformou Chiikawa em um fenômeno cultural recente."
     },
@@ -49,8 +54,9 @@
       "id": 6,
       "titulo": "Clássicos do anime retornam à televisão brasileira",
       "autor": "João Vítor Fernandes",
-      "data": "27 de Fevereiro de 2026",
-      "hora": "16:50",
+      "categoria": "Notícia",
+      "resumo": "Títulos icônicos das décadas de 90 e 2000 serão reexibidos na TV aberta em um novo bloco focado em atrair fãs veteranos e novos espectadores.",
+      "data": "2026-02-27T19:50:00.000Z",
       "imagem": "https://www.einerd.com/wp-content/uploads/2024/09/shonen-jump.webp",
       "conteudo": "Fãs brasileiros de animação japonesa receberam uma notícia nostálgica esta semana: alguns clássicos do anime devem retornar à televisão aberta em um novo bloco dedicado à cultura pop asiática.\n\nEntre os títulos mencionados estão séries que marcaram gerações de espectadores e ajudaram a popularizar os animes no país durante as décadas de 1990 e 2000.\n\nA iniciativa busca atingir tanto fãs antigos quanto uma nova geração de espectadores, oferecendo uma programação variada que inclui ação, aventura e fantasia. Caso o projeto tenha boa audiência, novos títulos poderão ser adicionados à grade nos próximos meses."
     },
@@ -58,8 +64,9 @@
       "id": 7,
       "titulo": "Novo teaser ligado ao universo de Evangelion reacende teorias dos fãs",
       "autor": "Peterson William",
-      "data": "26 de Fevereiro de 2026",
-      "hora": "19:15",
+      "categoria": "Notícia",
+      "resumo": "Vídeo misterioso sugere novos projetos para a franquia Evangelion, reacendendo debates sobre o futuro da obra de Hideaki Anno.",
+      "data": "2026-02-26T22:15:00.000Z",
       "imagem": "https://a.storyblok.com/f/178900/960x540/2f8a14ab0f/evangelion-30-hero.png/m/filters:quality(95)format(webp)",
       "conteudo": "Um teaser misterioso relacionado ao universo de Evangelion foi divulgado recentemente e rapidamente se espalhou pelas redes sociais. Embora poucos detalhes tenham sido confirmados, o material sugere que novos projetos ligados à franquia podem estar em desenvolvimento.\n\nA série original, criada por Hideaki Anno, é considerada uma das obras mais influentes da história dos animes, conhecida por combinar ação mecha com temas psicológicos e filosóficos.\n\nMesmo décadas após seu lançamento, Evangelion continua gerando debates e teorias entre fãs, e qualquer novo anúncio envolvendo a franquia costuma gerar enorme repercussão na comunidade."
     },
@@ -67,8 +74,9 @@
       "id": 8,
       "titulo": "Netflix amplia investimento em produções de anime",
       "autor": "João Vítor Fernandes",
-      "data": "25 de Fevereiro de 2026",
-      "hora": "13:00",
+      "categoria": "Notícia",
+      "resumo": "Plataforma de streaming reforça catálogo com novas parcerias e continuações de séries, consolidando-se como grande financiadora global de animes.",
+      "data": "2026-02-25T16:00:00.000Z",
       "imagem": "https://animeflix.com.br/wp-content/uploads/2025/11/Animes-Netflix-2026.jpg",
       "conteudo": "A Netflix anunciou novos investimentos em produções de anime, reforçando a estratégia da plataforma de ampliar seu catálogo voltado para fãs de animação japonesa.\n\nNos últimos anos, o serviço de streaming se tornou um dos principais financiadores de projetos de anime fora do Japão, participando tanto da produção quanto da distribuição global dessas obras.\n\nEntre os projetos previstos estão continuações de séries populares, novas adaptações de mangás e produções originais desenvolvidas em parceria com estúdios japoneses."
     },
@@ -76,8 +84,9 @@
       "id": 9,
       "titulo": "Temporada de primavera promete grandes estreias no mundo dos animes",
       "autor": "Peterson William",
-      "data": "25 de Fevereiro de 2026",
-      "hora": "09:45",
+      "categoria": "Notícia",
+      "resumo": "Com o calendário japonês de primavera se aproximando, fãs aguardam por grandes lançamentos e continuações ambiciosas dos principais estúdios.",
+      "data": "2026-02-25T12:45:00.000Z",
       "imagem": "https://ramenparados.com/wp-content/uploads/2025/04/Class-de-2-banme-ni-Kawaii-Onnanoko-to-Tomodachi-ni-natta-PV.jpg",
       "conteudo": "A temporada de primavera de animes está se aproximando e promete trazer diversas estreias aguardadas pelos fãs. Entre adaptações de mangás populares e continuações de séries conhecidas, o período deve ser um dos mais movimentados do ano para a indústria.\n\nTradicionalmente, a primavera japonesa costuma concentrar grandes lançamentos, já que muitos estúdios aproveitam o período para apresentar projetos ambiciosos.\n\nCom trailers e anúncios sendo divulgados nas últimas semanas, a expectativa é que alguns desses títulos se tornem os principais sucessos do ano."
     },
@@ -85,8 +94,9 @@
       "id": 10,
       "titulo": "Indústria de animes continua crescendo globalmente",
       "autor": "João Vítor Fernandes",
-      "data": "24 de Fevereiro de 2026",
-      "hora": "20:20",
+      "categoria": "Notícia",
+      "resumo": "Crescimento do consumo de animes em mercados como a América Latina impulsiona estúdios a investir em projetos globais e plataformas de streaming.",
+      "data": "2026-02-24T23:20:00.000Z",
       "imagem": "https://gqcanimes.com.br/wp-content/uploads/2024/04/crescimento-da-industria-de-animes-relatorio-1250x703.webp",
       "conteudo": "A indústria de animes segue em expansão ao redor do mundo, impulsionada pela popularidade crescente das plataformas de streaming e pela presença cada vez maior da cultura japonesa em diferentes mercados.\n\nRelatórios recentes indicam que o consumo de animes fora do Japão continua aumentando, com novos fãs surgindo em regiões como América Latina, Europa e Sudeste Asiático.\n\nEsse crescimento tem incentivado estúdios e produtoras a investir em projetos mais ambiciosos, ampliando o alcance global das produções e consolidando os animes como um dos formatos de entretenimento mais influentes da atualidade."
     }

@@ -14,7 +14,7 @@ export function Artigo() {
         const fetchArtigo = async () => {
             try {
                 setLoading(true)
-                const response = await api.get(`/noticias/${id}`);
+                const response = await api.get(`/postagens/${id}`);
                 setArtigo(response.data)
             } catch (error) {
                 console.log(error)
@@ -37,9 +37,9 @@ export function Artigo() {
                         <img src={artigo.imagem} alt="Imagem do post" className={styles.main_image} />
                     </div>
                     <div className={styles.infos}>
-                        <h4 className={styles.categoria}>Notícia</h4>
+                        <h4 className={styles.categoria}>{artigo.categoria}</h4>
                         <h2 className={styles.title}>{artigo.titulo}</h2>
-                        <p>Por {artigo.autor}, em {artigo.data} às {artigo.hora}</p><br />
+                        <p>Por {artigo.autor}, em {new Date(artigo.data).toLocaleDateString('pt-BR', {day: '2-digit', month: 'long', year: 'numeric'})} às {new Date(artigo.data).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit'})}</p><br />
                     </div>
                     <div className={styles.content}>
                         <p>{artigo.conteudo}</p>
