@@ -2,6 +2,8 @@
     position: relative;
     max-width: 1200px;
     cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .card img {
