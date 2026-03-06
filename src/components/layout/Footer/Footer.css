@@ -1,11 +1,13 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 footer {
   background-color: #408935;
   padding: 0.6em;
+  * {
+    color: #fff;
+  }
 }
 
 #footer-contato h2{
