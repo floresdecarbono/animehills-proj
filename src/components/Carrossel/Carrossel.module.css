@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+    max-width: 1200px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3em;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    color: white;
+    z-index: 1000;
+}
+
+.content p {
+    color: #ccc;
+}
