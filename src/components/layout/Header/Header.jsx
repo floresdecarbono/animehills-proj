@@ -1,5 +1,5 @@
-import React from 'react'
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   
@@ -8,10 +8,10 @@ const Header = () => {
       <h1 id='header-logo'>AnimeHills</h1>
 
       <span id='nav-links'>
-        <a href="">Home</a>
-        <a href="">Notícias</a>
-        <a href="">Resenhas </a>
-        <a href="">Contato</a>
+        <Link to="/">Home</Link>
+        <Link to="/busca?categoria=Notícia">Notícias</Link>
+        <Link to="/busca?categoria=Resenha">Resenhas </Link>
+        <Link>Contato</Link>
       </span>
     </header>
   )
