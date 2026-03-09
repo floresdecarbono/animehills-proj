@@ -1,0 +1,62 @@
+.busca_container {
+    padding: 2em 1em;
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.busca_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 50%;
+    }
+    input {
+        padding: .5em;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        outline: none;
+        font-size: 20px;
+        width: 100%;
+    }
+    ion-icon {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        font-size: 25px;
+        color: green;
+        font-weight: 200;
+    }
+    button {
+        padding: 1em;
+        border: none;
+        color: #fff;
+        background-color: green;
+    }
+}
+
+.prev {
+    border-top-left-radius: 20px;
+}
+
+.next {
+    border-top-right-radius: 20px;
+}
+
+.prev:disabled, .next:disabled {
+    background-color: rgb(96, 136, 96);
+}
