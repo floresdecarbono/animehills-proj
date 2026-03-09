@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        font-size: 25px;
+        color: green;
+        font-weight: 200;
+    }
+    button {
+        padding: 1em;
+        border: none;
+        color: #fff;
+        background-color: green;
+    }
+}
+
+.prev {
+    border-top-left-radius: 20px;
+}
+
+.next {
+    border-top-right-radius: 20px;
+}
+
+.prev:disabled, .next:disabled {
+    background-color: rgb(96, 136, 96);
+}
