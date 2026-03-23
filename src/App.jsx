@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Artigo } from './pages/artigo/Artigo.jsx';
 import { Container } from './components/layout/Container/Container.jsx';
 import { Busca } from './pages/Busca/Busca.jsx';
+import { Login } from './pages/Login/Login.jsx';
 
 function App() {
  return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomeContainer/>} />
         <Route path="/artigo/:id" element={<Artigo />}/>
         <Route path="/busca" element={<Busca />} />
+        <Route path='/login' element={<Login />}/>
       </Routes>
     </Container>
     <Footer/>
