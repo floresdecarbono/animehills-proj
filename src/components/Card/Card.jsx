@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useContext } from 'react'
 import { UserContext } from '../../contexts/UserContext' 
 import { api } from '../../config/api/api'
+import { handleAlertMessage } from '../../utils/handleAlertMessage'
 
 export function Card({ postagem, setPostagens }) {
 
@@ -10,8 +11,10 @@ export function Card({ postagem, setPostagens }) {
         try {
             await api.delete(`/postagens/${id}`)
             setPostagens(prev => prev.filter(post => post.id !== id))
+            handleAlertMessage("Postagem excluída com sucesso", "success")
         } catch (error) {
             console.log(error)
+            handleAlertMessage("Houve um erro ao excluir postagem", "error")
         }
     }
 
