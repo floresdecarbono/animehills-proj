@@ -46,7 +46,7 @@ export function Busca() {
                 </div>
             </div>
             <div className={styles.busca_content}>
-                {postagens.map(postagem => <Card key={postagem.id} postagem={postagem}/>)}
+                {postagens.map(postagem => <Card setPostagens={setPostagens} key={postagem.id} postagem={postagem}/>)}
             </div>
             <div className={styles.pagination}>
                 <button disabled={!infosPagination.prev} onClick={() => handleFilter("pagina", Number(page) - 1)} className={styles.prev}>Prev</button>
