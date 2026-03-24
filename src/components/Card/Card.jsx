@@ -1,11 +1,17 @@
 import styles from './Card.module.css'
 import { Link } from 'react-router-dom'
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import { UserContext } from '../../contexts/UserContext' 
 import { api } from '../../config/api/api'
 import { handleAlertMessage } from '../../utils/handleAlertMessage'
 
 export function Card({ postagem, setPostagens }) {
+
+    const [openModal, setOpenModal] = useState(false)
+
+    function handleCloseModal(e) {
+        if (e.target.id === 'modal-overlay') setOpenModal(false)
+    }
 
     async function removerPostagem(id) {
         try {
@@ -21,30 +27,47 @@ export function Card({ postagem, setPostagens }) {
     const { user } = useContext(UserContext)
 
     return (
-        <div className={styles.card}>
-            <div className={styles.card_content}>
-                {user && 
+        <>
+            <div className={styles.card}>
+                <div className={styles.card_content}>
+                    {user && 
+                        <div>
+                            <button className={styles.delete_button} onClick={() => setOpenModal(true)}>
+                                <ion-icon name="trash-bin-outline"></ion-icon>
+                            </button>
+                        </div>
+                    }
+                    
                     <div>
-                        <button className={styles.delete_button} onClick={() => removerPostagem(postagem.id)}>
-                            <ion-icon name="trash-bin-outline"></ion-icon>
-                        </button>
+                    <   p className={styles.data_postagem}>Por {postagem.autor}, em {new Date(postagem.data).toLocaleDateString('pt-BR', {day: '2-digit', month: 'long', year: 'numeric'})} às {new Date(postagem.data).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit'})}</p>
+                        <h4>{postagem.titulo}</h4>
+                        <p>{postagem.resumo}</p>
                     </div>
-                }
-                
-                <div>
-                <   p className={styles.data_postagem}>Por {postagem.autor}, em {new Date(postagem.data).toLocaleDateString('pt-BR', {day: '2-digit', month: 'long', year: 'numeric'})} às {new Date(postagem.data).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit'})}</p>
-                    <h4>{postagem.titulo}</h4>
-                    <p>{postagem.resumo}</p>
+                    <div>
+                        <Link to={`/artigo/${postagem.id}`}>
+                            <button className={styles.ver_detalhes}>Ver detalhes</button>
+                        </Link>
+                    </div>
                 </div>
-                <div>
-                    <Link to={`/artigo/${postagem.id}`}>
-                        <button className={styles.ver_detalhes}>Ver detalhes</button>
-                    </Link>
+                <div className={styles.card_image}>
+                    <img src={postagem.imagemCard} alt="" />
                 </div>
             </div>
-            <div className={styles.card_image}>
-                <img src={postagem.imagemCard} alt="" />
-            </div>
-        </div>
+            
+            {openModal && 
+                <div id='modal-overlay' className={styles.overlay} onClick={handleCloseModal}>
+                    <div className={styles.modal}>
+                        <div className={styles.header}>
+                            <h2>Você deseja remover essa postagem?</h2>
+                            <button className={styles.closeBtn} onClick={() => setOpenModal(false)}>&times;</button>
+                        </div>
+                        <div className={styles.content}>
+                            <button className={styles.confirm} onClick={() => removerPostagem(postagem.id)}>Remover</button>
+                            <button className={styles.cancel} onClick={() => setOpenModal(false)}>Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            } 
+        </>
     )
 }
