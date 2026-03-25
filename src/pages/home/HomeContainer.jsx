@@ -42,7 +42,7 @@ const Container = () => {
     <div id='home-container'>
       <Carrossel postagens={postagensCarrossel}/>
       <div className={styles.container_content}>
-        {postagens.map(postagem => <Card key={postagem.id} postagem={postagem}/>)}
+        {postagens.map(postagem => <Card setPostagens={setPostagens} key={postagem.id} postagem={postagem}/>)}
       </div>
       <div className={styles.pagination}>
         <button disabled={!infosPagination.prev} onClick={() => handlePage(page - 1)} className={styles.prev}>Prev</button>

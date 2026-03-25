@@ -33,3 +33,7 @@ h2 {
   display: flex;
   align-items: center;
 }
+
+.contato-item a {
+  text-decoration: none;
+}
