@@ -1,28 +1,6 @@
 {
   "postagens": [
     {
-      "id": "1",
-      "titulo": "Novo trailer da 4ª temporada de That Time I Got Reincarnated as a Slime revela próximos conflitos do Reino de Tempest",
-      "autor": "Peterson William",
-      "categoria": "Notícia",
-      "resumo": "O Reino de Tempest enfrenta novos desafios políticos e diplomáticos em trailer inédito da 4ª temporada, produzida pelo estúdio 8bit.",
-      "data": "2026-03-03T17:00:00.000Z",
-      "imagem": "https://images4.alphacoders.com/978/thumb-1920-978847.jpg",
-      "imagemCard": "https://m.media-amazon.com/images/M/MV5BOTczMjM3MDUtYmZjMC00YzZhLWE4ODQtNjg5YWU4NTJjNzY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "conteudo": "A quarta temporada de That Time I Got Reincarnated as a Slime ganhou um novo trailer oficial que animou os fãs da franquia. A prévia apresenta cenas inéditas envolvendo o crescimento do Reino de Tempest e os desafios políticos que surgem à medida que a nação de monstros liderada por Rimuru Tempest se torna cada vez mais influente no cenário internacional.\n\nAlém de mostrar batalhas de grande escala, o trailer também destaca momentos mais estratégicos, indicando que a nova temporada deve aprofundar os conflitos diplomáticos entre reinos humanos, demônios e outras criaturas do universo da série. A produção continua sob responsabilidade do estúdio 8bit, que já trabalhou nas temporadas anteriores.\n\nA estreia está prevista para a próxima temporada de animes e deve adaptar novos arcos da light novel original, ampliando o universo político e fantástico que tornou a obra um dos isekais mais populares da última década."
-    },
-    {
-      "id": "2",
-      "titulo": "Rooster Fighter ganha novo trailer e chama atenção pelo humor absurdo",
-      "autor": "João Vítor Fernandes",
-      "categoria": "Notícia",
-      "resumo": "Um galo lutador enfrenta demônios gigantes no Japão em nova adaptação de anime que aposta no contraste entre ação épica e humor excêntrico.",
-      "data": "2026-03-02T21:10:00.000Z",
-      "imagemCard": "https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_95sjqqona56756mmdj5ave1s0t/-S897-FWEBP",
-      "imagem": "https://i0.wp.com/www.otakupt.com/wp-content/uploads/2025/10/Rooster-Fighter-anime-op-screenshot.jpg?fit=1920%2C1080&ssl=1",
-      "conteudo": "A adaptação em anime de Rooster Fighter recebeu um novo trailer nesta semana e rapidamente virou assunto entre os fãs. A obra apresenta um conceito inusitado: um galo aparentemente comum que percorre o Japão enfrentando demônios gigantes que ameaçam a humanidade.\n\nO mangá original ficou conhecido por equilibrar humor exagerado e cenas de ação surpreendentemente épicas. O anime parece seguir essa mesma abordagem, com sequências de luta intensas misturadas a momentos cômicos que brincam com o contraste entre o protagonista improvável e os perigos que ele enfrenta.\n\nA expectativa é que a adaptação mantenha o espírito irreverente da obra original enquanto expande a narrativa para um público ainda maior. A estreia está prevista para este ano e já desperta curiosidade tanto entre fãs de ação quanto entre aqueles que buscam histórias mais excêntricas dentro do universo dos animes."
-    },
-    {
       "id": "4",
       "titulo": "Steel Ball Run finalmente ganha adaptação em anime",
       "autor": "João Vítor Fernandes",
@@ -32,17 +10,6 @@
       "imagem": "https://sm.ign.com/t/ign_pt/screenshot/default/steel-ball-run-anime-revealed_vs8t.1200.jpg",
       "imagemCard": "https://www.animationmagazine.net/wordpress/wp-content/uploads/STEEL-BALL-RUN-JoJos-Bizarre-Adventure-1_ImageVisual_EN-logo.jpg",
       "conteudo": "Após anos de especulação entre fãs, Steel Ball Run foi oficialmente confirmado como a próxima parte da saga JoJo’s Bizarre Adventure a receber adaptação em anime.\n\nAmbientada em uma corrida através dos Estados Unidos no final do século XIX, a história acompanha Johnny Joestar e Gyro Zeppeli em uma jornada que mistura competição esportiva, conspirações e batalhas sobrenaturais.\n\nConsiderada por muitos leitores como uma das melhores partes do mangá de Hirohiko Araki, Steel Ball Run é conhecida por sua narrativa mais madura e por apresentar um dos universos mais complexos da franquia. A expectativa é que a adaptação mantenha o estilo visual marcante e as batalhas criativas que tornaram JoJo um fenômeno global."
-    },
-    {
-      "id": "5",
-      "titulo": "Filme de Chiikawa promete emocionar fãs com nova aventura",
-      "autor": "Peterson William",
-      "categoria": "Notícia",
-      "resumo": "As pequenas criaturas de Chiikawa chegam aos cinemas em um longa que explora a amizade e novas regiões de seu universo peculiar.",
-      "data": "2026-02-28T13:25:00.000Z",
-      "imagem": "https://a.storyblok.com/f/178900/960x540/8f1554c4f8/chiikawa-movie-hero.png",
-      "imagemCard": "https://m.media-amazon.com/images/I/61XyiSm7YBL._UF1000,1000_QL80_.jpg",
-      "conteudo": "O universo adorável de Chiikawa ganhará um novo filme animado que promete expandir a história dos personagens que conquistaram fãs ao redor do mundo.\n\nConhecida por misturar momentos extremamente fofos com situações inesperadamente emocionais, a série acompanha pequenas criaturas que vivem aventuras cotidianas em um mundo repleto de desafios curiosos.\n\nO novo longa deve apresentar uma narrativa inédita que aprofunda a amizade entre os personagens principais enquanto explora novas regiões desse universo peculiar. A produção pretende manter o tom leve e carismático que transformou Chiikawa em um fenômeno cultural recente."
     },
     {
       "id": "6",

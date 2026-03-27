@@ -59,8 +59,74 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     ion-icon {
         font-size: 50px;
         color: #fff;
     }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    button {
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.cancel {
+    background-color: #ccc;
+    color: #515151;
+}
+
+.confirm {
+    background-color: rgb(141, 18, 18);
+    color: #fff;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
