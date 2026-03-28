@@ -1,7 +1,8 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import styles from './Adicionar.module.css';
 import { api } from "../../config/api/api";
 import { UserContext } from '../../contexts/UserContext';
+import { handleAlertMessage } from '../../utils/handleAlertMessage'
 
 export function Adicionar() {
 
@@ -9,106 +10,94 @@ export function Adicionar() {
 
   const [post, setPost] = useState({
     titulo: '',
-    categoria: '',
-    autor: user.nome,
-    data: new Date().toISOString(),
+    categoria: 'Notícia',
+    autor: user?.nome ?? 'Sem autor',
     imagem: '',
+    resumo: '',
     imagemCard: '',
     conteudo: '',
   });
 
   async function handleSubmit(e) {
     e.preventDefault()
-    enviarPost();
-
-    console.log(post);
+    enviarPost()
   }
 
 
   async function enviarPost() {
     try {
-      await api.post('/postagens', post);
+      await api.post('/postagens', {
+        ...post,
+        data: new Date().toISOString()
+      });
+      handleAlertMessage("Post criado com sucesso!", 'success')
+      setPost({
+        titulo: '',
+        categoria: 'Notícia',
+        autor: user?.nome ?? 'Sem autor',
+        imagem: '',
+        resumo: '',
+        imagemCard: '',
+        conteudo: '',
+      })
     } catch(err) {
       console.err('ERROR: ', err);
+      handleAlertMessage("Falha ao enviar o post", 'error')
     }
-  }
-
-  function criaResumo(conteudo) {
-    let resumo = '';
-
-    let i = 0;
-    for (i; i < 280; i++) {
-      resumo += conteudo[i];
-    }
-
-    while (conteudo[i] !== ' ') {
-      resumo += conteudo[i];
-      console.log(resumo);
-      i++;
-    }
-
-    return resumo + '...';
   }
 
   function handleChange(e) {
     const name = e.target.name;
     const value = e.target.value;
-    console.log('handleChange ', name, value)
-
-    if (e.target.name !== 'conteudo') {
-      setPost({ ...post, [name]: value });
-    }
-    else {
-      if (value.length >= 280) {
-        setPost({ ... post, [name]: value, resumo: criaResumo(value) });
-      }
-    }
+    setPost({ ...post, [name]: value });
   }
 
   return (
-    <>
+    <div className={styles.container}>
       <h1>Adicionar postagem</h1>
 
       <form action="POST" onSubmit={handleSubmit} className={styles.form_container}>
-        <label htmlFor="titulo">
-          Título
-        </label>
-        <input type="text"  name='titulo' onChange={handleChange} className={styles.inputs} required/>
 
-        <label htmlFor="categoria" className={styles.labels}>
-          Categoria
-        </label>
-        <select name="categoria" id="select-categoria" onChange={handleChange} className={styles.selects} required>
-          <option value="Notícia">
-            Notícia
-          </option>
-          <option value="Resenha">
-            Resenha
-          </option>
-        </select>
+        <div className={styles.container_inputs}>
+          <label htmlFor="titulo" className={styles.labels}>Título</label>
+          <input type="text"  name='titulo' onChange={handleChange} className={styles.inputs} value={post.titulo}/>
+        </div>
 
-        <label htmlFor="imagem" className={styles.labels}>
-          URL da Imagem de Capa
-        </label>
-        <input type="text" name='imagem' onChange={handleChange} className={styles.inputs} required /><br />
+        <div className={styles.container_inputs}>
+          <label htmlFor="categoria" className={styles.labels}>Categoria</label>
+          <select name="categoria" id="select-categoria" onChange={handleChange} className={styles.selects} value={post.categoria}>
+            <option value="Notícia">
+              Notícia
+            </option>
+            <option value="Resenha">
+              Resenha
+            </option>
+          </select>
+        </div>
+        
+        <div className={styles.container_inputs}>
+          <label htmlFor="imagem" className={styles.labels}>URL da Imagem de Capa</label>
+          <input type="text" name='imagem' onChange={handleChange} className={styles.inputs} value={post.imagem}/><br />
+        </div>
+        
+        <div className={styles.container_inputs}>
+          <label htmlFor="imagemCard" className={styles.labels}>URL da Imagem de Sumário</label>
+          <input type="text" name='imagemCard' onChange={handleChange} className={styles.inputs} value={post.imagemCard}/><br />
+        </div>
 
-        <label htmlFor="imagemCard" className={styles.labels}>
-          URL da Imagem de Sumário
-        </label>
-        <input type="text" name='imagemCard' onChange={handleChange} className={styles.inputs} required /><br />
+        <div className={styles.container_inputs}>
+          <label htmlFor="conteudo" className={styles.labels}>Resumo da notícia</label>
+          <textarea name="resumo" id="textarea-conteudo" onChange={handleChange} className={styles.content_area_resumo} value={post.resumo}></textarea>
+        </div>
 
-        <label htmlFor="conteudo" className={styles.labels}>
-          Conteúdo
-        </label>
-        <textarea name="conteudo" id="textarea-conteudo" minLength="450" onChange={handleChange} className={styles.content_area} required></textarea>
+        <div className={styles.container_inputs}>
+          <label htmlFor="conteudo" className={styles.labels}>Conteúdo</label>
+          <textarea name="conteudo" id="textarea-conteudo" onChange={handleChange} className={styles.content_area} value={post.conteudo}></textarea>
+        </div>
 
-        <button className={styles.buttons}>Postar</button><br />
-        <button  type='button' onClick={() => {
-          console.log(post);
-          criaResumo();
-        }}>Ver Post</button>
+        <button className={styles.buttons} type='submit'>Postar</button><br />
       </form>
-    </>
+    </div>
   )
 
 }

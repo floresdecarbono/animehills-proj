@@ -8,6 +8,7 @@ import { Container } from './components/layout/Container/Container.jsx';
 import { Busca } from './pages/Busca/Busca.jsx';
 import { Login } from './pages/Login/Login.jsx';
 import { Alert } from './components/Alert/Alert.jsx';
+import { Adicionar } from './pages/adicionar/Adicionar.jsx';
 
 function App() {
  return (

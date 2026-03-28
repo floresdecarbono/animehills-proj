@@ -1,31 +1,41 @@
-main {
-  width: 45em;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin: 1em 0;
+  }
 }
 
 .form_container {
   display: block;
+  text-align: center;
+  width: 700px;
+}
+
+.container_inputs {
+  text-align: start;
+  margin: 1em 0;
 }
 
 .labels {
   display: block;
-  margin-top: 0.7em;
-
-  font-size: 24px;
+  margin: .5em 0;
+  font-size: 20px;
 }
 
 .inputs {
-  width: 48em;
-  height: 2.3em;
+  width: 100%;
   padding: 1em;
   border-radius: 0.8rem;
+  outline: none;
+  font-size: 15px;
 }
 
 .selects {
-  width: 20em;
-  height: 2em;
   border-radius: 0.5em;
-
-  padding-left: 1em;
+  padding: 1em;
+  width: 100%;
 }
 
 .inputs, .selects {
@@ -33,28 +43,30 @@ main {
 }
 
 .buttons {
-  width: 10em;
-  height: 3.5em;
+  padding: 1em 3em;
   border-radius: 1rem;
-
   background-color: green;
   color: whitesmoke;
   font-weight: bold;
-
   margin-top: 1em;
-
-  position: relative;
-  left: 20em;
-  
+  border: none;
   cursor: pointer;
 }
 
 .content_area {
   resize: none;
-
-  width: 41.7em;
-  height: 18em;
+  width: 100%;
+  min-height: 20em;
   border-radius: 1rem;
+  font-size: 15px;
+  padding: 1em;
+}
 
+.content_area_resumo {
+   resize: none;
+  width: 100%;
+  min-height: 10em;
+  border-radius: 1rem;
+  font-size: 15px;
   padding: 1em;
 }

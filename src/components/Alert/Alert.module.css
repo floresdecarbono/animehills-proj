@@ -1,7 +1,7 @@
 .alert {
     position: fixed;
     right: 10px;
-    top: 100px;
+    top: 50px;
     display: flex;
     justify-content: start;
     align-items: center;
