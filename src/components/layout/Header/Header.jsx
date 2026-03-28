@@ -6,6 +6,10 @@ import { UserContext } from '../../../contexts/UserContext';
 const Header = () => {
 
   const { user, logout } = useContext(UserContext)
+
+  const handleLogout = () => {
+    logout()
+  }
   
   return (
     <header>
@@ -17,8 +21,8 @@ const Header = () => {
         <Link to="/busca?categoria=Resenha">Resenhas </Link>
         <Link>Contato</Link>
         {user && <>
-          <Link to="/adicionar">Adicionar postagem</Link>
-          <Link onClick={() => logout()} style={{cursor: 'pointer'}}>Logout</Link>
+          <Link to="/busca?categoria=Notícia">Adicionar postagem</Link>
+          <span onClick={handleLogout} style={{cursor: 'pointer', color: '#fff', fontWeight: 600}}>Logout</span>
         </>}
       </span>
     </header>

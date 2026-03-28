@@ -7,12 +7,13 @@ import { Artigo } from './pages/artigo/Artigo.jsx';
 import { Container } from './components/layout/Container/Container.jsx';
 import { Busca } from './pages/Busca/Busca.jsx';
 import { Login } from './pages/Login/Login.jsx';
-import { Adicionar } from './pages/adicionar/Adicionar.jsx';
+import { Alert } from './components/Alert/Alert.jsx';
 
 function App() {
  return (
   <>
     <Header/>
+    <Alert />
     <Container>
       <Routes>
         <Route path="/" element={<HomeContainer/>} />

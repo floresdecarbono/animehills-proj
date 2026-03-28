@@ -1,0 +1,30 @@
+.alert {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    padding: 1em;
+    border-radius: 10px;
+    z-index: 100000;
+    * {
+        color: #fff;
+    }
+}
+
+.alert ion-icon {
+    font-size: 25px;
+}
+
+.success {
+    background-color: rgb(122, 207, 122);
+    border: 2px solid rgb(21, 185, 21);
+}
+
+.error {
+    background-color: rgb(199, 79, 79);
+    border: 2px solid red;
+}

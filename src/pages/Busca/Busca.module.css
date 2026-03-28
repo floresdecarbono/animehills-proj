@@ -45,6 +45,7 @@
         padding: 1em;
         border: none;
         color: #fff;
+        cursor: pointer;
         background-color: green;
     }
 }
