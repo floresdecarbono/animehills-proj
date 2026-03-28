@@ -17,7 +17,7 @@ const Header = () => {
         <Link to="/busca?categoria=Resenha">Resenhas </Link>
         <Link>Contato</Link>
         {user && <>
-          <Link to="/busca?categoria=Notícia">Adicionar postagem</Link>
+          <Link to="/adicionar">Adicionar postagem</Link>
           <Link onClick={() => logout()} style={{cursor: 'pointer'}}>Logout</Link>
         </>}
       </span>

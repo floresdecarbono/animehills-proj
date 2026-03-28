@@ -1,0 +1,60 @@
+main {
+  width: 45em;
+}
+
+.form_container {
+  display: block;
+}
+
+.labels {
+  display: block;
+  margin-top: 0.7em;
+
+  font-size: 24px;
+}
+
+.inputs {
+  width: 48em;
+  height: 2.3em;
+  padding: 1em;
+  border-radius: 0.8rem;
+}
+
+.selects {
+  width: 20em;
+  height: 2em;
+  border-radius: 0.5em;
+
+  padding-left: 1em;
+}
+
+.inputs, .selects {
+  border: solid 1px black
+}
+
+.buttons {
+  width: 10em;
+  height: 3.5em;
+  border-radius: 1rem;
+
+  background-color: green;
+  color: whitesmoke;
+  font-weight: bold;
+
+  margin-top: 1em;
+
+  position: relative;
+  left: 20em;
+  
+  cursor: pointer;
+}
+
+.content_area {
+  resize: none;
+
+  width: 41.7em;
+  height: 18em;
+  border-radius: 1rem;
+
+  padding: 1em;
+}

@@ -98,6 +98,17 @@
       "imagem": "https://gqcanimes.com.br/wp-content/uploads/2024/04/crescimento-da-industria-de-animes-relatorio-1250x703.webp",
       "imagemCard": "https://www.claro.com.br/files/104379/860x1440/d085d3aad5/capa-melhores-animes-para-assistir-online.png/m/filters:quality(75)",
       "conteudo": "A indústria de animes segue em expansão ao redor do mundo, impulsionada pela popularidade crescente das plataformas de streaming e pela presença cada vez maior da cultura japonesa em diferentes mercados.\n\nRelatórios recentes indicam que o consumo de animes fora do Japão continua aumentando, com novos fãs surgindo em regiões como América Latina, Europa e Sudeste Asiático.\n\nEsse crescimento tem incentivado estúdios e produtoras a investir em projetos mais ambiciosos, ampliando o alcance global das produções e consolidando os animes como um dos formatos de entretenimento mais influentes da atualidade."
+    },
+    {
+      "id": "8b73",
+      "titulo": "Frieren e a melâncolia dos tempos que já passaram",
+      "categoria": "Resenha",
+      "autor": "João Vítor Fernandes",
+      "data": "2026-03-28T18:27:41.309Z",
+      "imagem": "https://nerdizmo.ig.com.br/vamos-conversar-sobre-frieren-e-a-jornada-para-o-alem/",
+      "imagemCard": "https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_pa01pm11tp2vj44u5bbc25e079/-S897-FWEBP",
+      "conteudo": "Depois que a grande jornada termina e o herói derrota o rei demônio, o que acontece com os personagens que ficaram para trás? Frieren: Beyond Journey's End parte exatamente dessa pergunta para construir uma narrativa incomum dentro do gênero de fantasia.\n\nA história acompanha Frieren, uma maga elfa que vive por séculos e que, após a morte de seus antigos companheiros de aventura, começa a perceber o quanto pouco entendeu sobre as emoções humanas durante o tempo que passaram juntos. Esse ponto de partida transforma o anime em algo muito mais introspectivo do que as tradicionais histórias de fantasia heroica.\n\nVisualmente, a série aposta em uma direção calma e contemplativa. As paisagens, trilha sonora e ritmo narrativo criam uma atmosfera melancólica que reforça o tema central da obra: o peso do tempo e das memórias.\n\nMais do que batalhas ou grandes confrontos, Frieren se destaca pela sensibilidade com que trata amizade, perda e amadurecimento. É um anime que mostra que algumas das jornadas mais importantes acontecem depois que a aventura aparentemente acabou.",
+      "resumo": "Depois que a grande jornada termina e o herói derrota o rei demônio, o que acontece com os personagens que ficaram para trás? Frieren: Beyond Journey's End parte exatamente dessa pergunta para construir uma narrativa incomum dentro do gênero de fantasia.\n\nA história acompanha Frieren,..."
     }
   ],
   "usuarios": [
@@ -106,6 +117,12 @@
       "email": "wil@gmail.com",
       "senha": "12345",
       "id": "5789"
+    },
+    {
+      "nome": "João Vítor Fernandes",
+      "email": "jvfern@gmail.com",
+      "senha": "cuidapapai!123",
+      "id": "77777"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
