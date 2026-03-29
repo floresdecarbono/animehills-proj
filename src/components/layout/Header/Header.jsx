@@ -19,7 +19,7 @@ const Header = () => {
         <Link to="/">Home</Link>
         <Link to="/busca?categoria=Notícia">Notícias</Link>
         <Link to="/busca?categoria=Resenha">Resenhas </Link>
-        <Link>Contato</Link>
+        <a href="#footer-contato">Contato</a>
         {user && <>
           <Link to="/adicionar">Adicionar postagem</Link>
           <span onClick={handleLogout} style={{cursor: 'pointer', color: '#fff', fontWeight: 600}}>Logout</span>
